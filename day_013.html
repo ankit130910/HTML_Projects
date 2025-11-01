@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/server">
+        <label for="username">username</label>
+        <input type="text" name="username" id="username" maxlength="10" placeholder="enter your name"
+            autocomplete="off">
+        <br>
+        <label for="password">password</label>
+        <input type="password" name="password" id="password" placeholder="password" disabled>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" autocomplete="off" placeholder="email">
+        <br>
+        <label for="id">Id proof</label>
+        <input type="file" name="" id="id"> <!-- Can use multiple attribute to accept multiple files -->
+        <br>
+        <fieldset>
+            <legend>Date of Birth</legend>
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="" id="dob">
+        </fieldset>
+
+        <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </form>
+</body>
+
+</html>

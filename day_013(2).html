@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/server">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Full Name</label>
+            <br>
+            <input type="text" name="name" id="name" placeholder="Enter your full name">
+            <br>
+            <label for="dob">Date of Birth</label>
+            <br>
+            <input type="date" name="DOB" id="dob">
+            <br>
+            <label for="gender">Gender</label>
+            <br>
+            <label for="male">Male</label>   <input type="radio" name="" id="male" value="Male">
+            <br>
+            <label for="female">Female</label>   <input type="radio" name="" id="female" value="Female">
+            <br>
+            <label for="other">Other</label>   <input type="radio" name="" id="other" value="Other">
+            <br>
+            <label for="">Upload Photo</label>
+            <br>
+            <fieldset><input type="file" name="" id=""></fieldset>
+        </fieldset>
+
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label for="email">Email</label>
+            <br>
+            <input type="email" name="Email" id="email">
+            <br>
+            <label for="contact">Phone Number</label>
+            <br>
+            <input type="number" name="Phone" id="contact" maxlength="10" minlength="10">
+            <br>
+            <label for="Address">Address</label>
+            <br>
+            <textarea name="Address" id="Address" placeholder="Enter your Address" rows="3"></textarea>
+
+        </fieldset>
+    </form>
+</body>
+</html>

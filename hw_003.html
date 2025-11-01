@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/server">
+        <table bgcolor="brown" cellpadding="6" align="center" width="700">
+            <caption>
+                <font color="blue"><u>
+                        <h1>Student Registration form using Table in HTML</h1>
+                    </u></font>
+            </caption>
+            <tr>
+                <td><label for="fname">
+                        <font color="white">First Name</font>
+                    </label></td>
+                <td><input type="text" name="First Name" id="fname" maxlength="50"></td>
+                <td>
+                    <font color="white">(Max 50 Characters Allowed)</font>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="lname">
+                        <font color="white">Last Name</font>
+                    </label></td>
+                <td><input type="text" name="Last Name" id="lname" maxlength="50"></td>
+                <td>
+                    <font color="white">(Max 50 Characters Allowed)</font>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="email">
+                        <font color="white">Email ID</font>
+                    </label></td>
+                <td><input type="email" name="Email ID" id="email"></td>
+            </tr>
+
+            <tr>
+                <td><label for="phone">
+                        <font color="white">Mobile Number</font>
+                    </label></td>
+                <td><input type="number" name="Mobile" id="phone" maxlength="10"></td>
+                <td>
+                    <font color="white">(10 Digits Allowed)</font>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <font color="white">Gender</font>
+                </td>
+                <td>
+                    <input type="radio" name="gender" id="gender" value="male">
+                    <label for="gender">
+                        <font color="white">Male</font>
+                    </label>
+                    <input type="radio" name="gender" id="gender" value="Female">
+                    <label for="gender">
+                        <font color="white">Feale</font>
+                    </label>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="DOB">
+                        <font color="white">Date of Birth(DOB)</font>
+                    </label></td>
+                <td><input type="date" name="DOB" id="DOB"></td>
+            </tr>
+            <tr>
+                <td><label for="Address">
+                        <font color="white">Address</font>
+                    </label></td>
+                <td><textarea name="Address" id="Address" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="city">
+                        <font color="white">City</font>
+                    </label></td>
+                <td><input type="text" name="First Name" id="fname" maxlength="50"></td>
+                <td>
+                    <font color="white">(Max 50 Characters Allowed)</font>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="pincode">
+                        <font color="white">Pin Code</font>
+                    </label></td>
+                <td><input type="number" name="Pin Code" id="pincode" maxlength="6"></td>
+                <td>
+                    <font color="white">(Max 6 Numbers Allowed)</font>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="state">
+                        <font color="white">State</font>
+                    </label></td>
+                <td><input type="text" name="State" id="state" maxlength="50"></td>
+                <td>
+                    <font color="white">(Max 50 Characters Allowed)</font>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="country">
+                        <font color="white">Country</font>
+                    </label></td>
+                <td><input type="text" name="country" id="country"></td>
+            </tr>
+            <tr>
+                <td rowspan="2"><label for="hobby">
+                        <font color="white">Hobbies</font>
+                    </label></td>
+                <td><input type="checkbox" name="" id="Drawing" value="Drawing"><label for="Drawing">
+                        <font color="white">Drawing</font>
+                    </label>
+                    <input type="checkbox" name="" id="singing" value="Singing"><label for="Singing">
+                        <font color="white">Singing</font>
+                    </label>
+                    <input type="checkbox" name="" id="Dancing" value="Dancing"><label for="Dancing">
+                        <font color="white">Dancing</font>
+                    </label>
+                    <!-- <input type="checkbox" name="" id="sketching" value="sketching"><label for="sketching"><font color="white">Sketching</font></label> -->
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="" id="others" value=""><label for="others">
+                        <font color="white">others</font>
+                    </label>
+                    <input type="text" name="" id="others">
+                </td>
+                <td>
+                    <font color="white">(Max 50 Characters Allowed)</font>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Qualification">
+                        <font color="white">Qualification</font>
+                    </label></td>
+                <td>
+                    <input type="radio" name="Qualification" id="10th" value="10th">
+                    <label for="10th">
+                        <font color="white">High School (10th)</font>
+                    </label>
+                    <br>
+                    <input type="radio" name="Qualification" id="12th" value="12th">
+                    <label for="12th">
+                        <font color="white">Higher School (12th)</font>
+                    </label>
+                    <br>
+                    <input type="radio" name="Qualification" id="graduation" value="Bachelors"">
+                    <label for=" graduation">
+                    <font color="white">Graduation (Bachelors)</font></label>
+                    <br>
+                    <input type="radio" name="Qualification" id="postgraduation" value="Masters"">
+                    <label for=" postgraduation">
+                    <font color="white">Postgraduation (Masters)</font></label>
+                    <br>
+                    <input type="radio" name="Qualification" id="phd" value="Phd"">
+                    <label for=" phd">
+                    <font color="white">Phd</font></label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">
+                        <font color="white">Courses Applied For</font>
+                    </label></td>
+                <td>
+                    <input type="radio" name="Course" id="BCA" value="BCA"">
+                    <label for=" BCA">
+                    <font color="white">BCA</font></label>
+                    <br>
+                    <input type="radio" name="Course" id="BCom" value="B.Com"">
+                    <label for=" BCom">
+                    <font color="white">B.Com</font></label>
+                    <br>
+                    <input type="radio" name="Course" id="BSc" value="B.Sc"">
+                    <label for=" BSc">
+                    <font color="white">B.Sc</font></label>
+                    <br>
+                    <input type="radio" name="Course" id="BA" value="BA"">
+                    <label for=" BA">
+                    <font color="white">BA</font></label>
+                    <br>
+                    <input type="radio" name="Course" id="MCA" value="MCA"">
+                    <label for=" MCA">
+                    <font color="white">MCA</font></label>
+                    <br>
+                    <input type="radio" name="Course" id="MCom" value="M.Com"">
+                    <label for=" MCom">
+                    <font color="white">M.Com</font></label>
+                    <br>
+                    <input type="radio" name="Course" id="MSc" value="M.Sc"">
+                    <label for=" MSc">
+                    <font color="white">M.Sc</font></label>
+                    <br>
+                    <input type="radio" name="Course" id="MA" value="MA"">
+                    <label for=" MA">
+                    <font color="white">MA</font></label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center"><button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+
+</html>

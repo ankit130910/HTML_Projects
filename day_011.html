@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Embeded tags -  these tags are those which helps to show external data from other websites on our website. example img audio video iframe embed or object. -->
+
+    <iframe src="https://cdnjs.com/libraries/font-awesome" frameborder="0" height="500" width="500"></iframe>
+    <br>
+    <embed src="Pdfs/AnkitSoni_SoftwareEngineer.pdf" type="">
+    <br>
+    <!-- some browsers does not support embed so we use object(latest) -->
+    <object data="Pdfs/AnkitSoni_SoftwareEngineer.pdf" type="">
+        <p>file not found</p>
+    </object>
+    <br><br>
+    <form action="/server" method="post">
+        <label for="username">username</label>
+        <input type="text" name="username" id="username" maxlength="10" placeholder="enter your name" autocomplete="off">
+        <br>
+        <label for="password">password</label>
+        <input type="password" name="password" id="password" placeholder="password" disabled>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" autocomplete="off" placeholder="email">
+        <br>
+        <label for="browser">Browser</label>
+        <input type="text" list="browser">
+        <datalist id="browser">
+            <option value="edge"></option>
+            <option value="firefox"></option>
+            <option value="chrome"></option>
+            <option value="opera"></option>
+        </datalist>
+        <br>
+        <label for="Movies">Browser</label>
+        <input type="text" list="movie">
+        <datalist id="movie">
+            <option value="Pathaan"></option>
+            <option value="Jawan"></option>
+            <option value="Fan"></option>
+            <option value="Lagaan"></option>
+        </datalist>
+        <br>
+        <button type="submit">submit</button>
+
+        <!-- ?username=ankitsoni13&password=Ankit%40123 
+             Here ? refers query string
+             and & refers separate input name
+        -->
+    </form>
+
+</body>
+
+</html>
